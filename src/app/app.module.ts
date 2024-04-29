@@ -9,9 +9,16 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
+import {MatToolbarModule} from '@angular/material/toolbar';
+import { HeaderComponent } from "./components/template/header/header.component";
+import { FooterComponent } from './components/template/footer/footer.component';
+
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
@@ -19,7 +26,8 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
     BrowserAnimationsModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatToolbarModule
   ],
   providers: [
     provideAnimationsAsync()
