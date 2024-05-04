@@ -12,13 +12,20 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { HeaderComponent } from "./components/template/header/header.component";
 import { FooterComponent } from './components/template/footer/footer.component';
-
+import { NavComponent } from './components/template/nav/nav.component';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list';
+import { MatIconModule } from '@angular/material/icon';
+import { HomeComponent } from './components/views/home/home.component';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
+    NavComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
@@ -27,7 +34,11 @@ import { FooterComponent } from './components/template/footer/footer.component';
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatSidenavModule,
+    MatListModule,
+    MatIconModule,
+    MatCardModule
   ],
   providers: [
     provideAnimationsAsync()
