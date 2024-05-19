@@ -14,6 +14,29 @@
     font-weight: 500;
 }
 
+.btn-categoria {
+    margin-bottom: .8rem;
+}
+
 .table {
     width: 100%;
 }
+
+.livros {
+    margin-left: .6rem;
+    color: #4e4ec7;
+}
+
+.edit {
+    color: #4e4ec7;
+}
+
+.delete {
+    color: #f94141;
+    margin-left: .4rem;
+}
+
+.mat-header {
+    width: 6rem;
+}
+
