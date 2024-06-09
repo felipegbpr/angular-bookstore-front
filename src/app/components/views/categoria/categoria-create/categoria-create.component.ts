@@ -30,4 +30,8 @@ export class CategoriaCreateComponent {
     });
   }
 
+  cancel(): void {
+    this.router.navigate(['categorias']);
+  }
+
 }
