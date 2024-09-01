@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 664a11c8d6d854d3769c2b210ae85fe296015347 Felipe Borges <felipetecacc@gmail.com> 1723425173 -0300	clone: from github.com:felipegbpr/angular-bookstore-front.git
+664a11c8d6d854d3769c2b210ae85fe296015347 c39a3a06c46a999093be979bd765f7e6b2883b3c Felipe Borges <felipetecacc@gmail.com> 1723431485 -0300	commit: UPDATE para Livro implementado
+c39a3a06c46a999093be979bd765f7e6b2883b3c 2cc7107321a7e9be042aeb0adf5734d14e8b55e3 Felipe Borges <felipetecacc@gmail.com> 1725204812 -0300	commit: DELETE para Livro implementado
+2cc7107321a7e9be042aeb0adf5734d14e8b55e3 a6f87da1fe9bf99f8342803a6736241c6062554c Felipe Borges <felipetecacc@gmail.com> 1725221591 -0300	commit: READ para Livro implementado

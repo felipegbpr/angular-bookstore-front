@@ -1,0 +1,9 @@
+.container {
+    height: 85%;
+}
+
+i {
+    padding-right: .4rem;
+    position: relative;
+    top: .3rem;
+}
