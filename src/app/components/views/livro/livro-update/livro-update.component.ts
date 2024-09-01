@@ -3,6 +3,7 @@ import { FormControl, Validators } from '@angular/forms';
 import { LivroService } from '../livro.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Livro } from '../livro.model.';
+
 @Component({
   selector: 'app-livro-update',
   templateUrl: './livro-update.component.html',
@@ -32,7 +33,7 @@ export class LivroUpdateComponent implements OnInit {
   ngOnInit(): void {
     this.id_cat = this.route.snapshot.paramMap.get("id_cat")!;
     this.livro.id = this.route.snapshot.paramMap.get("id")!;
-    this.findById()
+    this.findById();
   }
 
   cancel(): void {
@@ -41,7 +42,7 @@ export class LivroUpdateComponent implements OnInit {
 
   findById(): void {
     this.service.findById(this.livro.id!).subscribe((resposta) => {
-      this.livro = resposta
+      this.livro = resposta;
     })
   }
 
