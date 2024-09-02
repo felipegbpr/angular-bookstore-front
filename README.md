@@ -1,27 +1,51 @@
-# BookstoreFront
+# 📕 BookStore
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/felipegbpr/angular-bookstore-front/blob/master/LICENSE)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.1.
+## 📃 Sobre o projeto 
 
-## Development server
+https://felipegbpr.github.io/angular-bookstore-front
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Este projeto é uma aplicação web front-end que tem como principal tecnologia de desenvolvimento o framework **Angular**. O principal objetivo desta
+aplicação é prover uma série de funcionalidades que representam uma biblioteca de livros online para consumo e aprendizado. Através dos recursos
+funcionais providos, é possível realizar operações do tipo **CRUD** nos dados dos livros ou categorias que estiverem cadastrados.
 
-## Code scaffolding
+## 📷 Layout
+<img src="https://github.com/felipegbpr/assets/blob/main/print-bookstore-front.png" width="850px"/> <img src="https://github.com/felipegbpr/assets/blob/main/print-bookstore-2.png" width="850px"/>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 💻 Tecnologias utilizadas
+![Static Badge](https://img.shields.io/badge/TypeScript-blue?style=for-the-badge&logo=typescript&logoSize=amg&color=black) 
+![Static Badge](https://img.shields.io/badge/Bootstrap-violet?style=for-the-badge&logo=bootstrap&logoSize=amg&color=black)
+![Static Badge](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoSize=amg&color=black)
+![Static Badge](https://img.shields.io/badge/HTML-orange?style=for-the-badge&logo=html5&logoSize=amg&color=black)
+![Static Badge](https://img.shields.io/badge/CSS-blue?style=for-the-badge&logo=css3&logoColor=blue&logoSize=amg&color=black)
+![Static Badge](https://img.shields.io/badge/Angular-red?style=for-the-badge&logo=angular&logoColor=red&logoSize=amg&color=black)
 
-## Build
+## 🌐 Implantação e produção
+- GitHub Pages
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## ⚙️ Como executar
+🚩 Pré-requisitos: ANGULAR & NODE
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+  <span># clonar repositório</span>
+    
+    git clone git@github.com:felipegbpr/angular-bookstore-front.git
+   
+  <span># instalar dependências</span>
+    
+    npm install
+  
+  <span># executar o projeto</span>
+    
+    npm start 
+   
+## 👔 Autor
 
-## Running end-to-end tests
+Felipe Borges
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Perfil no LinkedIn: https://www.linkedin.com/in/felipe-gsb/
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
