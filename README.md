@@ -20,7 +20,7 @@ funcionais providos, é possível realizar operações do tipo **CRUD** nos dado
 ![Static Badge](https://img.shields.io/badge/CSS-blue?style=for-the-badge&logo=css3&logoColor=blue&logoSize=amg&color=black)
 ![Static Badge](https://img.shields.io/badge/Angular-red?style=for-the-badge&logo=angular&logoColor=red&logoSize=amg&color=black)
 
-## 🌐 Implantação e produção
+## 🌐 Implantação em produção
 - GitHub Pages
 
 ## ⚙️ Como executar
